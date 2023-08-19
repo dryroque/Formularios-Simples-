@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario.com</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css" media="screen">
+    </head>
+
+    <body>
+        <div>
+            <h1 id="titulo">Faça seu cadastro</h1>
+            <p id="titulo">Preencha os campos abaixo</p>
+        </div>
+        <br>
+        <br>
+        <form>
+            <fieldset>
+                <div id="fonte" class="campo">
+                    <label>Nome:</label>
+                    <input type="text" name="nome" required><br>
+                    <label>Sobrenome:</label>
+                    <input type="text" name="sobrenome" required><br>
+                    <label>E-mail:</label>
+                    <input type="email" name="email" required><br>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <div>
+                    <label id="fonte" class="campo">Selecione a sua opção:</label>
+                    <input type="radio" name="devweb">Masculino
+                    <input type="radio" name="devweb">Feminino
+                    <input type="radio" name="devweb">Outro
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <div>
+                    <label id="fonte" class="campo">Idade</label>
+                    <select>
+                        <option selected disabled>Selecione</option>
+                        <option >0 até 18 anos</option>
+                        <option>19 até 59 anos</option>
+                        <option>60 em diante anos</option>
+                    </select>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <div>
+                    <label id="fonte" class="campo">Conte mais da sua vida:</label>
+                    <textarea rows="5"></textarea>
+                </div>
+            </fieldset>
+            <br>
+            <button type="submit" id="fonte" class="campo">Enviar</button>
+        </form>
+
+    </body>
+
+</html>

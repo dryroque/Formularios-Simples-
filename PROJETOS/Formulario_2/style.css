@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+}
+
+body{
+    text-align: center;
+    background-color: #40E0D0;
+}
+
+fieldset{
+    border: 0;
+}
+
+#fonte{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid 59429d;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: block;
+    margin-left: 48%;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
